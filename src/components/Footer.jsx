@@ -18,7 +18,7 @@ const Footer = () => {
       </section>
       <section>
         <a
-          class='github-button'
+          className='github-button'
           href='https://github.com/oslabs-beta/projectArtemis'
           data-icon='octicon-star'
           data-size='large'
