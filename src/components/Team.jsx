@@ -14,27 +14,27 @@ const Team = () => {
       name: 'Erick Melendez',
       filePath: erick,
       handle: (
-        <a href="https://github.com/mlndz-la">
-          <img src={github} alt="github"></img>
+        <a href='https://github.com/mlndz-la'>
+          <img src={github} alt='github'></img>
         </a>
       ),
       linkHandle: (
-        <a href="https://www.linkedin.com/in/erick-m/">
-          <img src={linkedin} alt="linkedin"></img>
+        <a href='https://www.linkedin.com/in/erick-m/'>
+          <img src={linkedin} alt='linkedin'></img>
         </a>
       ),
     },
     {
-      name: 'Greg',
+      name: 'Greg Dixon',
       filePath: greg,
       handle: (
-        <a href="https://github.com/greg-dixon">
-          <img src={github} alt="github"></img>
+        <a href='https://github.com/greg-dixon'>
+          <img src={github} alt='github'></img>
         </a>
       ),
       linkHandle: (
-        <a href="https://www.linkedin.com/in/gdixon529/">
-          <img src={linkedin} alt="linkedin"></img>
+        <a href='https://www.linkedin.com/in/gdixon529/'>
+          <img src={linkedin} alt='linkedin'></img>
         </a>
       ),
     },
@@ -42,13 +42,13 @@ const Team = () => {
       name: 'Scott Burman',
       filePath: scott,
       handle: (
-        <a href="https://github.com/scottburs">
-          <img src={github} alt="github"></img>
+        <a href='https://github.com/scottburs'>
+          <img src={github} alt='github'></img>
         </a>
       ),
       linkHandle: (
-        <a href="https://www.linkedin.com/in/scottburman847/">
-          <img src={linkedin} alt="linkedin"></img>
+        <a href='https://www.linkedin.com/in/scottburman847/'>
+          <img src={linkedin} alt='linkedin'></img>
         </a>
       ),
     },
@@ -56,13 +56,13 @@ const Team = () => {
       name: 'Taylor Morgan',
       filePath: taylor,
       handle: (
-        <a href="https://github.com/TaylorMorgan7">
-          <img src={github} alt="github"></img>
+        <a href='https://github.com/TaylorMorgan7'>
+          <img src={github} alt='github'></img>
         </a>
       ),
       linkHandle: (
-        <a href="https://www.linkedin.com/in/taylor-morgan-3038b9201/">
-          <img src={linkedin} alt="linkedin"></img>
+        <a href='https://www.linkedin.com/in/taylor-morgan-3038b9201/'>
+          <img src={linkedin} alt='linkedin'></img>
         </a>
       ),
     },
@@ -70,13 +70,13 @@ const Team = () => {
       name: 'Stella Liao',
       filePath: stella,
       handle: (
-        <a href="https://github.com/stellaliao01">
+        <a href='https://github.com/stellaliao01'>
           <img src={github} alt='github'></img>
         </a>
       ),
       linkHandle: (
-        <a href="https://www.linkedin.com/in/stellaliao/">
-          <img src={linkedin} alt="linkedin"></img>
+        <a href='https://www.linkedin.com/in/stellaliao/'>
+          <img src={linkedin} alt='linkedin'></img>
         </a>
       ),
     },
@@ -84,9 +84,9 @@ const Team = () => {
 
   return (
     <>
-      <div className="team-container">
-        <p className="team-container__intro">Meet the Team</p>
-        <div className="team-members-container">
+      <div className='team-container'>
+        <p className='team-container__intro'>Meet the Team</p>
+        <div className='team-members-container'>
           {teamMembers.map((person) => TeamMember(person))}
         </div>
       </div>
@@ -96,9 +96,9 @@ const Team = () => {
 
 const TeamMember = ({ name, filePath, handle, linkHandle }) => {
   return (
-    <div className="team-member">
-      <img loading="lazy" className="team-member__img" src={filePath} alt="" />
-      <h4 className="team-member__name">{name}</h4>
+    <div className='team-member'>
+      <img loading='lazy' className='team-member__img' src={filePath} alt='' />
+      <h4 className='team-member__name'>{name}</h4>
       <div className='logo-container'>
         <h1 className='icon'>{handle}</h1>
         <h1 className='icon'>{linkHandle}</h1>
